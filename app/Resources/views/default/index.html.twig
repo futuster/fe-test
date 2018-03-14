@@ -2,10 +2,18 @@
 
 {% block body %}
 
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-3 mt-5 ">
+            <button class="btn btn-default">Создать</button>
+            <div class="filter-toolbar"></div>
+        </div>
+        <div id="employee-list" class="table-responsive"></div>
+    </div>
+
 {% endblock %}
 
 {% block stylesheets %}
-<style>
 
-</style>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
 {% endblock %}
