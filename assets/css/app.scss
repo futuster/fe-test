@@ -17,3 +17,14 @@
   vertical-align: middle;
 
 }
+.modal-content label {
+  display: block;
+}
+.filter-toolbar .clear {
+  margin-left: -20px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+.filter-toolbar .clear:hover {
+  text-decoration: none;
+}

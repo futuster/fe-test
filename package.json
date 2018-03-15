@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:dev": "encore dev",
-    "build:prod": "encore production"
+    "dev": "./node_modules/.bin/encore dev",
+    "prod": "./node_modules/.bin/encore production"
   },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.19.0",
